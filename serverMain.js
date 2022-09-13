@@ -5,7 +5,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-   res.send("This is the Free version of Underhoster, to get the Full version send dm to AdrianoTech#7163");
+   res.send("This is the not so full version of Underhoster, to modify the port after downloading the server files go to 'const PORT = 3000' and change the 3000");
 });
 
 app.post("/", (req, res) => {
